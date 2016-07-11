@@ -74,7 +74,7 @@ unsigned int from_roman_numeral(const char* s, std::size_t sz)
   return ret;
 }
 
-unsigned int from_roman_numeral(std::string s)
+unsigned int from_roman_numeral(const std::string& s)
 {
   return from_roman_numeral(s.c_str(), s.size());
 }
